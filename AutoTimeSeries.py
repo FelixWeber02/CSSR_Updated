@@ -46,6 +46,8 @@ file.write(script)
 
 # Compile File
 
+# Alter the -I option for your instiallation of boost
+
 res = subprocess.run("g++ -I /opt/local/libexec/boost/1.71/include -o Time TimeSeries.cpp", shell=True, capture_output=True) 
 #print(res)
 
