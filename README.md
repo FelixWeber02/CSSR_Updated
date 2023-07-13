@@ -9,7 +9,7 @@ Brodu's initial repo included a pre-built TimeSeries.cpp file for time-series an
 
 python AutoTimeSeries.py N_Past N_Future Kernel_Size Flag DataFile.txt
 
-Make sure to have an output directory setup at ../Output/DataFile, as all outputs will be put there. 
+Make sure to have an output directory setup at ../Output/DataFile (relative to AutoTimeSeries.py), as all outputs will be put there. 
 
 # Direct Time Series Analysis
 If you want to work directly with this code, you will have to compile all necessary components yourself. Let us consider TimeSeries.cpp. If you haven't appeneded the Boost library to your $PATH, you will have to compile like so:
