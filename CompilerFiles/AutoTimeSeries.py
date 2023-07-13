@@ -64,6 +64,6 @@ Out_Folder = data_file.split(sep='.')[0].split(sep='/')[1]
 
 print(Out_Folder)
     
-res = subprocess.run("./Compiled/Time " + str(k) + ' ' + str(flag) + ' Output/'+ Out_Folder + ' ' + str(data_file), shell=True, capture_output=True)
+res = subprocess.run("./CompilerFiles/Time " + str(k) + ' ' + str(flag) + ' Output/'+ Out_Folder + ' ' + str(data_file), shell=True, capture_output=True)
 
 print(res.stdout.decode())
