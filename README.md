@@ -14,7 +14,7 @@ Make sure to have an output directory setup at ../Output/DataFile, as all output
 # Direct Time Series Analysis
 If you want to work directly with this code, you will have to compile all necessary components yourself. Let us consider TimeSeries.cpp. If you haven't appeneded the Boost library to your $PATH, you will have to compile like so:
 
-g++ -I /opt/local/libexec/boost/1.71/include -o Time TimeSeries.cpp",
+g++ -I /opt/local/libexec/boost/1.71/include -o Time TimeSeries.cpp ,
 
 where the -I tells the compiler where to find the Boost library (this will be a different filepath depending on how and where you installed Boost). The -o option is required to correctly name the compiled executable. To then run the executable, usage is:
 
